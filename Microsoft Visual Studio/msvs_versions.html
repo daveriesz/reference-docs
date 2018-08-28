@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+body
+{
+  font-family: arial, sans-serif;
+}
+table, th, td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td
+{
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+td.pn { text-align: left; white-space: nowrap; }
+td.cn { text-align: left; white-space: nowrap; }
+td.vn { text-align: center; font-family: monospace; white-space: pre; }
+td.vc { text-align: center; font-family: monospace; white-space: pre; }
+td.dn { text-align: center; font-family: monospace; }
+td.rd { text-align: center; font-family: monospace; white-space: pre; }
+th.aa {}
+</style>
+</head>
+<body>
+<centeR>
+<table>
+<tr><th colspan=6>Microsoft Visual Studio Product Table</th></tr>
+<tr><th class="aa">Product name</th             ><th class="aa">Codename</th     ><th class="aa">Version<br>number</th><th class="aa">Version<br>of cl.exe</th><th class="aa">Supported .NET<br>Framework versions</th><th class="aa">Release date</th></tr>
+<tr><td class="pn">Visual Studio 97</td         ><td class="cn">Boston</td       ><td class="vn"> 5.0</td             ><td class="vc">N/A</td                 ><td class="dn">N/A</td                                 ><td class="rd">   Feb 1997</td ></tr>
+<tr><td class="pn">Visual Studio 6.0</td        ><td class="cn">Aspen</td        ><td class="vn"> 6.0</td             ><td class="vc">12.00</td               ><td class="dn">N/A</td                                 ><td class="rd">   Jun 1998</td ></tr>
+<tr><td class="pn">Visual Studio .NET (2002)</td><td class="cn">Ranier</td       ><td class="vn"> 7.0</td             ><td class="vc">13.00</td               ><td class="dn">1.0</td                                 ><td class="rd">13 Feb 2002</td ></tr>
+<tr><td class="pn">Visual Studio .NET 2003</td  ><td class="cn">Everett</td      ><td class="vn"> 7.1</td             ><td class="vc">13.10</td               ><td class="dn">1.1</td                                 ><td class="rd">24 Apr 2003</td ></tr>
+<tr><td class="pn">Visual Studio 2005</td       ><td class="cn">Whidbey</td      ><td class="vn"> 8.0</td             ><td class="vc">14.00</td               ><td class="dn">2.0, 3.0</td                            ><td class="rd"> 7 Nov 2005</td ></tr>
+<tr><td class="pn">Visual Studio 2008</td       ><td class="cn">Orcas</td        ><td class="vn"> 9.0</td             ><td class="vc">15.00</td               ><td class="dn">2.0, 3.0, 3.5</td                       ><td class="rd">19 Nov 2007</td ></tr>
+<tr><td class="pn">Visual Studio 2010</td       ><td class="cn">Dev10/Rosario</td><td class="vn">10.0</td             ><td class="vc">16.00</td               ><td class="dn">2.0-4.0</td                             ><td class="rd">12 Apr 2010</td ></tr>
+<tr><td class="pn">Visual Studio 2012</td       ><td class="cn">Dev11</td        ><td class="vn">11.0</td             ><td class="vc">17.00</td               ><td class="dn">2.0-4.5.2</td                           ><td class="rd">12 Spt 2012</td ></tr>
+<tr><td class="pn">Visual Studio 2013</td       ><td class="cn">Dev12</td        ><td class="vn">12.0</td             ><td class="vc">18.00</td               ><td class="dn">2.0-4.5.2</td                           ><td class="rd">17 Oct 2013</td ></tr>
+<tr><td class="pn">Visual Studio 2015</td       ><td class="cn">Dev14</td        ><td class="vn">14.0</td             ><td class="vc">19.00</td               ><td class="dn">2.0-4.6</td                             ><td class="rd">20 Jul 2015</td ></tr>
+<tr><td class="pn">Visual Studio 2017</td       ><td class="cn">Dev15</td        ><td class="vn">15.0</td             ><td class="vc">19.00</td               ><td class="dn">3.5-4.7</td                             ><td class="rd"> 7 Mar 2017</td ></tr>
+<tr><td class="pn">Visual Studio 2019</td       ><td class="cn">Unknown</td      ><td class="vn">16.0</td             ><td class="vc">19.00</td               ><td class="dn">TBA</td                                 ><td class="rd">TBA</td         ></tr>
+</table>
+</center>
+
+<h2>Compiler versions</h2>
+<pre>
+MSC    1.0   _MSC_VER == 100
+MSC    2.0   _MSC_VER == 200
+MSC    3.0   _MSC_VER == 300
+MSC    4.0   _MSC_VER == 400
+MSC    5.0   _MSC_VER == 500
+MSC    6.0   _MSC_VER == 600
+MSC    7.0   _MSC_VER == 700
+MSVC++ 1.0   _MSC_VER == 800
+MSVC++ 2.0   _MSC_VER == 900
+MSVC++ 4.0   _MSC_VER == 1000 (Developer Studio 4.0)
+MSVC++ 4.2   _MSC_VER == 1020 (Developer Studio 4.2)
+MSVC++ 5.0   _MSC_VER == 1100 (Visual Studio 97 version 5.0)
+MSVC++ 6.0   _MSC_VER == 1200 (Visual Studio 6.0 version 6.0)
+MSVC++ 7.0   _MSC_VER == 1300 (Visual Studio .NET 2002 version 7.0)
+MSVC++ 7.1   _MSC_VER == 1310 (Visual Studio .NET 2003 version 7.1)
+MSVC++ 8.0   _MSC_VER == 1400 (Visual Studio 2005 version 8.0)
+MSVC++ 9.0   _MSC_VER == 1500 (Visual Studio 2008 version 9.0)
+MSVC++ 10.0  _MSC_VER == 1600 (Visual Studio 2010 version 10.0)
+MSVC++ 11.0  _MSC_VER == 1700 (Visual Studio 2012 version 11.0)
+MSVC++ 12.0  _MSC_VER == 1800 (Visual Studio 2013 version 12.0)
+MSVC++ 14.0  _MSC_VER == 1900 (Visual Studio 2015 version 14.0)
+MSVC++ 14.1  _MSC_VER == 1910 (Visual Studio 2017 version 15.0)
+MSVC++ 14.11 _MSC_VER == 1911 (Visual Studio 2017 version 15.3)
+MSVC++ 14.12 _MSC_VER == 1912 (Visual Studio 2017 version 15.5)
+MSVC++ 14.13 _MSC_VER == 1913 (Visual Studio 2017 version 15.6)
+MSVC++ 14.14 _MSC_VER == 1914 (Visual Studio 2017 version 15.7)
+MSVC++ 14.15 _MSC_VER == 1915 (Visual Studio 2017 version 15.8)
+</pre>
+</body>
+</html>
